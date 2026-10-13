@@ -41,10 +41,32 @@ Halaman `about.html` dibuat sebagai halaman tunggal (single layout) yang memuat 
 Halaman `contact.html` berisi form nama, email, subjek, dan pesan. Kolom nama, email, dan pesan wajib diisi menggunakan atribut `required`; email menggunakan tipe `email`. Form ini merupakan simulasi front-end dan belum mengirim data ke server.
 
 ## Screenshot
-Screenshot hasil browser ada pada `assets/screenshots/` dan dapat digunakan sebagai bukti pada laporan.
+-about
+<img width="1366" height="768" alt="about" src="https://github.com/user-attachments/assets/e06886ad-bd7d-4c3d-9249-1c4b1e4e718c" />
+
+-contact
+<img width="1366" height="768" alt="contact" src="https://github.com/user-attachments/assets/cc56a35f-f111-4b1c-b296-722265b6bd98" />
+
+-home
+<img width="1366" height="768" alt="home" src="https://github.com/user-attachments/assets/d2364970-88a7-4313-8404-575ffa53080f" />
+
+-lab4_box
+<img width="1366" height="768" alt="lab4_box" src="https://github.com/user-attachments/assets/6f6c0252-99dc-4f75-b160-3d6ce761b6eb" />
+
 
 ## Validasi HTML
-Buka https://validator.w3.org, pilih **Validate by File Upload**, lalu unggah satu per satu file HTML untuk memeriksa validitas markup. Simpan screenshot hasil validasi aktual setelah dilakukan.
+-about
+<img width="1035" height="434" alt="image" src="https://github.com/user-attachments/assets/16b371f4-c4cd-4690-8065-d73dc005e5ac" />
+
+-contact
+<img width="1035" height="438" alt="image" src="https://github.com/user-attachments/assets/35fc4dcc-e48e-41e9-952a-812b1d552882" />
+
+-home
+<img width="1035" height="438" alt="image" src="https://github.com/user-attachments/assets/e9023e32-d501-4dd3-adad-3aafeb355d42" />
+
+-lab4_box
+<img width="1035" height="430" alt="image" src="https://github.com/user-attachments/assets/1b448649-479f-49cf-ae73-3bdc4e27a4d9" />
+
 
 ## Git dan GitHub
 ```bash
@@ -52,7 +74,6 @@ git init
 git add .
 git commit -m "Praktikum 4 CSS Layout"
 git branch -M main
-git remote add origin https://github.com/USERNAME/Lab4Web.git
+git remote add origin https://github.com/erlinadwiiartika/Lab4Web
 git push -u origin main
 ```
-Ganti `USERNAME` dengan username GitHub sendiri. Buat repository bernama `Lab4Web` sebelum menjalankan perintah remote/push.
